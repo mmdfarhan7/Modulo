@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>MyModulo</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <section class="header">
+        <nav class="">
+            <a href="index.html"><img src="images/Logos.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><ul></ul></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu-alt-right' onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Modulo</h1>
+            <h3> We Are AI Based Blockchain Agency </h3>
+            <a href="#" class="hero-btn">Contact Us</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="campus">
+        <h1>Our Customers Feedback</h1>
+        <p>"Life is for service."</p>
+        <div class="row">
+            <div class="course-col">
+                <h2>Client:Tech</h2>
+                <p>
+                    "In the tech industry, innovation is the name of the game. At InnovateTech, we're at the forefront of technological advancements, but our digital marketing efforts weren't reflecting our pioneering spirit.</p>
+            </div>
+            <div class="course-col">
+                <h2>Year:2023</h2>
+                <p>
+                    Modulo, with their AI-driven strategies, bridged this gap. Their campaigns not only amplified our innovations but also positioned us as thought leaders in the tech space, The results were astounding.</p>
+            </div>
+            <div class="course-col">
+                <h2>Industry:Tech</h2>
+                <p>Increased web traffic, higher engagement rates, and a surge in inquiries from potential partners. Modulo's ability to merge technology with storytelling, all while staying true to our brand's core values, has been instrumental in our digital success."</p>
+            </div>
+            
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>What We Do?</h1>
+        <p>Teach An AI To Fish, And It Will Optimize The Ocean</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/saas (3).jpg" alt="">
+                <div class="layer">
+                    <h3>Saas</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/gra.jpg" alt="">
+                <div class="layer">
+                    <h3>GRAPHIC DESIGN</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/block.jpg" alt="">
+                <div class="layer">
+                    <h3>BLOCKCHAIN <br>DEVELOPMENT <br>SERVICES</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h2>About Us</h2>
+        <p>Welcome to Modulo.Inc,Your trusted partner in leveraging the power of artificial intelligence to drive innovation and transform businesses. <br>At Modulo, we're passionate about harnessing cutting edge technologies to solve complex challenges and unlock new opportunities for our clients.</p>
+        <div class="icons">
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-instagram-alt'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-linkedin-square'></i>
+        </div>
+        <p>Made With <i class='bx bx-heart'></i> By Easy Tutorials</p>
+    </section>
+
+
+
+<!---JavaScript Toggle --->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right="0";
+    }
+    function hideMenu() {
+        navLinks.style.right="-200px";
+    }
+</script>
+
+    
+    
+</body>
+</html>
